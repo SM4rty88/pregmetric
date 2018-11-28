@@ -3,8 +3,8 @@ import requests
 import time
 import datetime
 
-accessToken = "OGM1NTFlYzkxMzVmNmQzNDJjZmQ3NGIxZjc0MWFlZWRkMGM3OWI1YzQwZjgzNzA3MDc2N2E0YTE3Nzk5NzkwZg=="
-URL = "https://developer.lametric.com/api/v1/dev/widget/update/com.lametric.2c9ed5c2667bf254bb48ad7772cca804/1"
+accessToken = ""
+URL = "https://developer.lametric.com/api/v1/dev/widget/update/com.lametric.2c9ed5c266..."
 now = time.localtime()
 today = datetime.date(now.tm_year, now.tm_mon, now.tm_mday)
 dDay = datetime.date(2019,3,6)
